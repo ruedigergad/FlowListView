@@ -56,7 +56,7 @@ Rectangle {
 
         delegate: Item {
             width: win.width / foo
-            height: 40
+            height: (foo === 2) ? 20 : 40
 
             Rectangle {
                 id: rect
